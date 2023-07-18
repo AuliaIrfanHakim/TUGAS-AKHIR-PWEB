@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+h2{
+  color: white;
+}
+
+h1, h3 {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+header {
+  background-color: lightpink;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a{
+  list-style: none;
+}
+
+section {
+  padding: 40px;
+}
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: calc(100% - 60px);
+  top: 120px;
+  left: 0;
+  background-color: #f1f1f1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.content {
+  margin-left: 220px;
+}
+
+.bio {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#contact {
+  background-color: pink;
+  padding: 20px;
+  border-radius: 0px;
+}
+
+#contact a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  nav ul {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+}
+
+.linkk {
+  display: inline-block;
+  margin-top: -10px; /* Sesuaikan margin sesuai kebutuhan */
+}
